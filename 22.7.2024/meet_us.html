@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+body{
+    background-color: #ED6A40;
+    
+  }
+  header{
+    background-color: #e98f7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .logo{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+  }
+  
+  .topnav{
+    display: block;
+    height: 50px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: black;
+    background-color: #ED6A40;
+    border-radius: 10px;
+
+  }
+
+  </style>
+  
+ 
+</head>
+<body>
+  <header >
+    <div class="head1">
+      <img class="logo" src="logo.png">
+      <h1>Welcome to the colorful world of Narnia Toothpicks</h1>
+    </div>
+    
+    <div class="topnav">
+      <div></div>
+      <a href="#" onclick="openPage('Narnia.html')">Home</a>
+      <a href="#" onclick="openPage('shop.html')">Shop</a>
+      
+  </div>
+
+  <script>
+      function openPage(pageUrl) {
+          window.location.href = pageUrl;
+      }
+  </script>
+
+
+  
+</body>
+</html>
